@@ -9,10 +9,6 @@ body {
   background-color: #f3e46b;
 }
 
-.content {
-  margin: 2% 8%;
-}
-
 nav {
   position: sticky;
   padding-left: 8%;
@@ -33,10 +29,7 @@ nav a.logo {
   text-decoration: none;
   transition: color 0.3s;
   padding: 10px 20px;
-  margin: 0 -10px;
-}
-
-nav a.logo .logo-content {
+  margin: -10px;
   font-size: 40px;
   font-weight: bold;
   color: #fff;
@@ -65,4 +58,24 @@ nav ul li a {
 
 nav ul li a:hover {
   color: #3a71c1;
+}
+
+.content {
+  margin: 2% 9%;
+  display: flex;
+  align-items: center;
+}
+
+.text {
+  flex: 1;
+}
+
+.photo {
+  flex-shrink: 0;
+  margin-left: 20px;
+}
+
+.photo img {
+  max-width: 100%;
+  height: auto;
 }
