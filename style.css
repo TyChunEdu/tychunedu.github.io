@@ -6,7 +6,18 @@
 
 body {
   margin: 0;
-  background-color: #f3e46b;
+}
+
+.body0 {
+  background-color: #e6f7ff;
+}
+
+.body1 {
+  background-color: #ffff99;
+}
+
+.body2 {
+  background-color: #ffc0cb;
 }
 
 nav {
@@ -20,7 +31,20 @@ nav {
   box-sizing: border-box;
   height: 100%;
   width: 100%;
-  background-color: #ea92ac;
+  top: 0;
+  z-index: 1;
+}
+
+.nav0 {
+  background-color: #3a71c1;
+}
+
+.nav1 {
+  background-color: #ffce44;
+}
+
+.nav2 {
+  background-color: #ff69b4;
 }
 
 nav a.logo {
@@ -28,20 +52,21 @@ nav a.logo {
   align-items: center;
   text-decoration: none;
   transition: color 0.3s;
-  padding: 10px 20px;
-  margin: -10px;
+  padding: 0px 0px;
+  margin: 0px;
   font-size: 40px;
   font-weight: bold;
   color: #fff;
 }
 
 nav a.logo:hover {
-  color: #3a71c1;
+  color: #888888;
 }
 
 nav ul {
   list-style: none;
   display: flex;
+  padding-inline-start: 0;
 }
 
 nav ul li {
@@ -57,13 +82,27 @@ nav ul li a {
 }
 
 nav ul li a:hover {
-  color: #3a71c1;
+  color: #888888;
+}
+
+section {
+  margin: 2% 8%;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
 }
 
 .content {
-  margin: 2% 9%;
-  display: flex;
   align-items: center;
+  display: flex;
+}
+
+.recent-posts {
+  margin: 2% 8%;
+}
+
+.blog-post {
+  margin-bottom: 20px;
 }
 
 .text {
@@ -78,4 +117,8 @@ nav ul li a:hover {
 .photo img {
   max-width: 100%;
   height: auto;
+}
+
+a {
+  display: inline-block;
 }
