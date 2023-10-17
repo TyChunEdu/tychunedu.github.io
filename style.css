@@ -4,6 +4,10 @@
   font-family: Nunito;
 }
 
+h1 {
+  font-size: 2em;
+}
+
 body {
   margin: 0;
 }
@@ -97,16 +101,15 @@ section {
   display: flex;
 }
 
-.recent-posts {
-  margin: 2% 8%;
-}
-
 .blog-post {
   margin-bottom: 20px;
 }
 
 .text {
   flex: 1;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
 }
 
 .photo {
@@ -121,4 +124,8 @@ section {
 
 a {
   display: inline-block;
+}
+
+.skills .content .text {
+  margin-right: 30px;
 }
