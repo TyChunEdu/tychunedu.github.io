@@ -10,6 +10,7 @@ h1 {
 
 body {
   margin: 0;
+  /*overflow-x: hidden;*/
 }
 
 a:hover {
@@ -83,6 +84,7 @@ nav ul {
   list-style: none;
   display: flex;
   padding-inline-start: 0;
+  box-sizing: border-box;
 }
 
 nav ul li {
@@ -163,7 +165,7 @@ section {
 }
 
 a {
-  display: inline-block;
+  display: inline;
 }
 
 .intro .photo {
@@ -191,10 +193,6 @@ a {
 td {
   text-align: center;
   padding-inline: 10px;
-}
-
-td a {
-  display: inline;
 }
 
 ul.horizontal {
