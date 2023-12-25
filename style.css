@@ -10,7 +10,7 @@ h1 {
 
 body {
   margin: 0;
-  /*overflow-x: hidden;*/
+  overflow-x: hidden;
 }
 
 a:hover {
@@ -53,7 +53,7 @@ a:hover {
   color: #ff3d8a;
 }
 
-nav {
+/*nav {
   position: sticky;
   padding-left: 8%;
   padding-right: 8%;
@@ -97,6 +97,54 @@ nav ul li a {
   transition: color 0.3s;
   padding: 10px 20px;
   margin: -10px;
+}*/
+
+nav {
+  position: sticky;
+  padding-left: 8%;
+  padding-right: 8%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  line-height: 60px;
+  box-sizing: border-box;
+  width: 100%; /* Set a flexible width */
+  background-color: #3a71c1; /* Add a background color for visibility */
+  top: 0;
+  z-index: 1;
+}
+
+nav a.logo {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  transition: color 0.3s;
+  padding: 0px 0px;
+  margin: 0px;
+  font-size: 40px; /* Adjusted font size for better proportion */
+  font-weight: bold;
+  color: #fff;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  padding-inline-start: 0;
+  box-sizing: border-box;
+  margin: 8px 0px;
+}
+
+nav ul li {
+  margin: 0px 20px;
+  text-align: center;
+}
+
+nav ul li a {
+  color: #fff;
+  text-decoration: none;
+  transition: color 0.3s;
+  padding: 10px 20px;
+  display: block;
 }
 
 section {
