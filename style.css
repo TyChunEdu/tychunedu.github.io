@@ -220,13 +220,26 @@ a {
   margin-left: 30px;
 }
 
-.awards .photo {
+.awards .photo/*, .education .photo*/ {
   display: flex;
   flex-direction: column;
 }
 
-.awards .photo img {
+.awards .photo img/*, .education .photo img*/ {
   margin-bottom: 1em;
+}
+
+.education table {
+  border: 0px;
+}
+
+.education table td {
+  padding: 0px 100px 0px 0px;
+}
+
+.education table td p {
+  text-align: left;
+  margin: 0px;
 }
 
 .experience .content {
