@@ -269,3 +269,7 @@ ul.horizontal {
 ul.horizontal li {
   margin-right: 30px;
 }
+
+.major a img {
+  width: 100%;
+}
