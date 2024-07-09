@@ -276,3 +276,14 @@ ul.horizontal li {
 .major a img {
   width: 100%;
 }
+
+@media only screen and (max-width: 1000px) {
+  nav ul li {
+    margin: 0px 0px;
+    text-align: center;
+  }
+
+  nav a.logo {
+    font-size: 30px;
+  }
+}
