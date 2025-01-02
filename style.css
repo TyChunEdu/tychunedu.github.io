@@ -17,6 +17,10 @@ a:hover {
   color: #888888 !important;
 }
 
+:target {
+  scroll-margin-top: 92px;
+}
+
 .body0 {
   background-color: #bcd6f0;
 }
