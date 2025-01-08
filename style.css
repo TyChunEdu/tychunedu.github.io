@@ -134,11 +134,13 @@ nav ul {
   list-style: none;
   display: flex;
   padding-inline-start: 0;
+  flex-wrap: wrap;
   box-sizing: border-box;
+  justify-content: flex-end;
 }
 
 nav ul li {
-  margin: 0px 20px;
+  margin: 0px 0px 0px 40px;
   text-align: center;
 }
 
@@ -281,7 +283,7 @@ ul.horizontal li {
   width: 100%;
 }
 
-@media only screen and (max-width: 1000px) {
+@media only screen and (max-width: 1220px) {
   nav ul li {
     margin: 0px 0px;
     text-align: center;
