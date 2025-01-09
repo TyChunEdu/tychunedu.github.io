@@ -292,4 +292,24 @@ ul.horizontal li {
   nav a.logo {
     font-size: 30px;
   }
+
+  .content, .project {
+    flex-direction: column;
+  }
+
+  .content .text {
+    align-self: flex-start;
+  }
+
+  .content .photo, .project .photo {
+    margin-left: 0 !important;
+  }
+
+  .hide-on-small {
+    display: none;
+  }
+
+  .show-on-small {
+    display: block;
+  }
 }
