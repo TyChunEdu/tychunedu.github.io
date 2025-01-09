@@ -326,6 +326,10 @@ iframe {
     display: none;
   }
 
+  .shrink-on-small {
+    font-size: 11px;
+  }
+
   .hide-on-small {
     display: none;
   }
