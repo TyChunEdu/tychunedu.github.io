@@ -322,12 +322,20 @@ iframe {
     padding: 0px;
   }
 
+  .awards .photo.hide-on-small {
+    display: none;
+  }
+
   .hide-on-small {
     display: none;
   }
 
   .show-on-small {
     display: flex;
+  }
+
+  .show0 {
+    justify-content: center;
   }
 }
 
