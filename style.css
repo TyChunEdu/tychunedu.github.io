@@ -283,6 +283,10 @@ ul.horizontal li {
   width: 100%;
 }
 
+iframe {
+  width: 500px;
+}
+
 @media only screen and (max-width: 1220px) {
   nav ul li {
     margin: 0px 0px;
@@ -297,7 +301,7 @@ ul.horizontal li {
     flex-direction: column;
   }
 
-  .content .text {
+  .content .text, .project .description {
     align-self: flex-start;
   }
 
@@ -311,5 +315,11 @@ ul.horizontal li {
 
   .show-on-small {
     display: block;
+  }
+}
+
+@media only screen and (max-width: 610px) {
+  iframe {
+    width: 100%;
   }
 }
