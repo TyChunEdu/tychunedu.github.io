@@ -311,6 +311,11 @@ iframe {
 
   .content .photo, .project .photo {
     margin-left: 0 !important;
+    align-items: center;
+  }
+
+  .photo + .photo {
+    margin-top: 15px;
   }
 
   .hide-on-small {
@@ -318,7 +323,7 @@ iframe {
   }
 
   .show-on-small {
-    display: block;
+    display: flex;
   }
 }
 
