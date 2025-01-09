@@ -326,8 +326,12 @@ iframe {
     display: none;
   }
 
+  table tr td {
+    padding: 1px;
+  }
+
   .shrink-on-small {
-    font-size: 10px;
+    font-size: 11px;
   }
 
   .hide-on-small {
