@@ -309,7 +309,7 @@ iframe {
     align-self: flex-start;
   }
 
-  .content .photo, .project .photo {
+  .content .photo, .project .photo, tr.photo {
     margin-left: 0 !important;
     align-items: center;
   }
