@@ -358,10 +358,7 @@ ul.horizontal.no-vertical-gap {
   flex-wrap: wrap;
   margin-block: 0;
   gap: 0;
-}
-
-ul.horizontal.no-vertical-gap li {
-  margin-right: 30px !important;
+  column-gap: 30px;
 }
 
 ul.horizontal a:has(img) {
