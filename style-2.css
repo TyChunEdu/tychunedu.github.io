@@ -2,6 +2,7 @@
 
 * {
   font-family: Nunito;
+  scroll-behavior: smooth;
 }
 
 h1 {
@@ -154,6 +155,7 @@ section.bgP0 a, .project-details.bgP0 a {
 .y-button {
   background-color: #ffa700;
   border-color: black;
+  color: black;
 }
 
 .p-button {
@@ -166,6 +168,12 @@ section.bgP0 a, .project-details.bgP0 a {
   background-color: #2a5c99;
   border-color: white;
   color: white;
+}
+
+.w-button {
+  background-color: white;
+  border-color: black;
+  color: black;
 }
 
 .small-button {
