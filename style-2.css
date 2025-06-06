@@ -137,6 +137,11 @@ section.bgP0 a, .project-details.bgP0 a {
   background-color: #C1F0F6;
 }
 
+.bgMagenta {
+  background-color: #9f4576;
+  color: white;
+}
+
 .cs-button {
   color: #ffa700;
   border-color: #ffa700;
