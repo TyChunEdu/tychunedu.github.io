@@ -2100,9 +2100,24 @@
         });
     });
 
+    document.addEventListener('click', (e) => {
+        const clickedOutsideMenu = !sideMenu.contains(e.target);
+        const clickedOutsideButton = !menuBtn.contains(e.target);
+
+        if (sideMenu.classList.contains('open') && clickedOutsideMenu && clickedOutsideButton) {
+            sideMenu.classList.remove('open');
+        }
+    });
+
     function toggleContent(element, event) {
         const anchor = event.target.closest('a');
-        if (anchor && anchor.hasAttribute('href')) return;
+        const selection = window.getSelection();
+
+        if ((anchor && anchor.hasAttribute('href'))
+            || (selection && selection.toString().length > 0)) {
+            return;
+        }
+
         element.classList.toggle('open');
     }
 
@@ -2169,7 +2184,6 @@
                 const targetId = item.dataset.detailId;
                 const selected = document.getElementById(targetId);
 
-                // If the same project is clicked again, close it and hide container
                 if (currentlyVisibleId === targetId) {
                     selected.classList.add("hidden");
                     container.classList.add("hidden");
@@ -2177,7 +2191,6 @@
                     return;
                 }
 
-                // Otherwise, show selected, hide others
                 detailBlocks.forEach(block => block.classList.add("hidden"));
                 if (selected) {
                     selected.classList.remove("hidden");
