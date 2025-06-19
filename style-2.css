@@ -565,6 +565,14 @@ ul.disc {
   align-items: center;
 }
 
+.row:has(.column) {
+  display: flex;
+}
+
+.row .column {
+  flex: 1;
+}
+
 .project-details .column .row * {
   margin: 2% 0;
 }
