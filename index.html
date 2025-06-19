@@ -2192,6 +2192,7 @@
                 }
 
                 detailBlocks.forEach(block => block.classList.add("hidden"));
+
                 if (selected) {
                     selected.classList.remove("hidden");
                     container.classList.remove("hidden");
@@ -2200,6 +2201,17 @@
                 }
             });
         });
+
+        const params = new URLSearchParams(window.location.search);
+        const projectParam = params.get("project");
+        if (projectParam) {
+            const autoItem = projects.find(item => item.dataset.detailId === "project-"
+                                                   + projectParam);
+            if (autoItem) {
+                autoItem.click();
+            }
+        }
     });
+
 </script>
 </html>
