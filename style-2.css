@@ -602,6 +602,12 @@ ul.disc {
   width: 100%;
 }
 
+.toggle-content img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
 @media only screen and (max-width: 1220px) {
   nav ul li {
     margin: 0px 0px;
