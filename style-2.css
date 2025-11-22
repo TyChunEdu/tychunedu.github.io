@@ -608,6 +608,32 @@ ul.disc {
   margin-right: auto;
 }
 
+.checklist {
+  list-style: none;
+  margin: 0;
+  padding-left: 20px; /* indent for nested lists */
+}
+
+.checklist li {
+  margin: 6px 0;
+}
+
+.checklist label {
+  display: grid;
+  grid-template-columns: auto 1fr;
+  gap: 10px;
+  align-items: center;
+}
+
+.checklist input[type="checkbox"] {
+  margin: 0;
+}
+
+.checklist span {
+  text-align: left;
+  display: block;
+}
+
 @media only screen and (max-width: 1220px) {
   nav ul li {
     margin: 0px 0px;
@@ -683,6 +709,10 @@ ul.disc {
 
   .button-anchor {
     width: 100%;
+  }
+
+  .checklist li label {
+    display: block;
   }
 }
 
