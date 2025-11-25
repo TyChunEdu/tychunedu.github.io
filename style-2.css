@@ -611,7 +611,11 @@ ul.disc {
 .checklist {
   list-style: none;
   margin: 0;
-  padding-left: 20px; /* indent for nested lists */
+  padding-left: 0;
+}
+
+.checklist .checklist {
+  padding-left: 20px;
 }
 
 .checklist li {
