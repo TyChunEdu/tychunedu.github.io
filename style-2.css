@@ -151,6 +151,16 @@ section.bgP0 a, .project-details.bgP0 a {
   color: white;
 }
 
+.bgRed {
+  background-color: #ff9999;
+  color: black;
+}
+
+.bgGrey {
+  background-color: rgb(180, 180, 180);
+  color: white;
+}
+
 .cs-button {
   color: #ffa700;
   border-color: #ffa700;
@@ -188,6 +198,18 @@ section.bgP0 a, .project-details.bgP0 a {
   background-color: white;
   border-color: black;
   color: black;
+}
+
+.mlb-button {
+  background-color: #041e42;
+  border-color: #bc0022;
+  color: white;
+}
+
+.neu-button {
+  background-color: #C8102E;
+  border-color: black;
+  color: white;
 }
 
 .small-button {
